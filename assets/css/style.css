@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+video::-webkit-media-controls {
+     visibility: hidden;
+}
+
+video::-webkit-media-controls-enclosure {
+     visibility: visible;
+}
+
+video::-webkit-media-controls-panel {
+     display: none !important;
+     opacity: 1 !important;
+}
